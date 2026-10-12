@@ -1,0 +1,8 @@
+{
+  "item.flashlightx.flashlight": "Фонарик",
+  "item.flashlightx.flashlight.tooltip": "§8ПКМ — включить/выключить",
+  "subtitle.flashlightx.flashlight_on": "Фонарик включается",
+  "subtitle.flashlightx.flashlight_off": "Фонарик выключается",
+  "item.flashlightx.battery": "Батарейка",
+  "itemGroup.flashlightx": "FlashlightX"
+}

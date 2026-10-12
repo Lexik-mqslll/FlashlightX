@@ -1,0 +1,24 @@
+package dev.lexik.sound;
+
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.sounds.SoundEvent;
+import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.registries.DeferredRegister;
+
+public class ModSounds {
+
+    public static final DeferredRegister<SoundEvent> SOUNDS =
+            DeferredRegister.create(Registries.SOUND_EVENT, "flashlightx");
+
+    public static final DeferredHolder<SoundEvent, SoundEvent> FLASHLIGHT_ON =
+            register("flashlight_on");
+    public static final DeferredHolder<SoundEvent, SoundEvent> FLASHLIGHT_OFF =
+            register("flashlight_off");
+
+    private static DeferredHolder<SoundEvent, SoundEvent> register(String name) {
+        return SOUNDS.register(name,
+                () -> SoundEvent.createVariableRangeEvent(
+                        ResourceLocation.fromNamespaceAndPath("flashlightx", name)));
+    }
+}

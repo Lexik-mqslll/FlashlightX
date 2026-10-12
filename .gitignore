@@ -1,0 +1,29 @@
+# Build output
+build/
+out/
+
+# Gradle
+.gradle/
+
+# Development runtime
+run/
+logs/
+crash-reports/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+eclipse/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Leftover from an early model iteration, unused
+/flashlight.json

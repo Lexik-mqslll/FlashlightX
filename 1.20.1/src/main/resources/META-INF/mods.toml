@@ -1,0 +1,33 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "MIT"
+
+[[mods]]
+modId = "flashlightx"
+version = "1.0.0"
+displayName = "FlashlightX"
+authors = "Lexik"
+description = "Realistic flashlight with dynamic lighting for Minecraft"
+logoFile = "logo.png"
+issues = "https://github.com/FlashlightXDev/FlashlightX/issues"
+
+[[dependencies.flashlightx]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.flashlightx]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,1.21)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.flashlightx]]
+modId = "geckolib"
+mandatory = true
+versionRange = "[4.4,)"
+ordering = "AFTER"
+side = "BOTH"

@@ -1,0 +1,32 @@
+# NeoGradle mod configuration
+
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "flashlightx"
+version = "1.0.0"
+displayName = "FlashlightX"
+authors = "FlashlightXDev"
+description = "Realistic flashlight with dynamic lighting for Minecraft"
+logoFile = "logo.png"
+enumExtensions = "META-INF/enumextensions.json"
+issues = "https://github.com/FlashlightXDev/FlashlightX/issues"
+
+[[dependencies.flashlightx]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+
+[[dependencies.flashlightx]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+
+[[dependencies.flashlightx]]
+modId = "geckolib"
+type = "required"
+versionRange = "[4.6,)"
+ordering = "AFTER"
+side = "BOTH"

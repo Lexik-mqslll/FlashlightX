@@ -1,0 +1,8 @@
+{
+  "item.flashlightx.flashlight": "Tactical Flashlight",
+  "item.flashlightx.flashlight.tooltip": "§8Right-click to toggle",
+  "subtitle.flashlightx.flashlight_on": "Flashlight clicks on",
+  "subtitle.flashlightx.flashlight_off": "Flashlight clicks off",
+  "item.flashlightx.battery": "Battery",
+  "itemGroup.flashlightx": "FlashlightX"
+}

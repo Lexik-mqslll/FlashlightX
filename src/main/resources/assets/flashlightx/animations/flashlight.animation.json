@@ -1,0 +1,119 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "flashlight_off_idle": {
+      "loop": "hold_on_last_frame",
+      "animation_length": 0.0417,
+      "bones": {
+        "Flashlight_Button": {
+          "position": {
+            "0.0": {
+              "vector": [
+                0,
+                0,
+                0
+              ]
+            },
+            "0.0417": {
+              "vector": [
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        }
+      }
+    },
+    "flashlight_on": {
+      "loop": "hold_on_last_frame",
+      "animation_length": 0.25,
+      "bones": {
+        "Flashlight_Button": {
+          "position": {
+            "0.0": {
+              "vector": [
+                0,
+                0,
+                0
+              ]
+            },
+            "0.125": {
+              "vector": [
+                0,
+                -0.384,
+                0
+              ],
+              "easing": "easeOutCubic"
+            },
+            "0.25": {
+              "vector": [
+                0,
+                -0.258,
+                0
+              ],
+              "easing": "easeOutCubic"
+            }
+          }
+        }
+      }
+    },
+    "flashlight_on_idle": {
+      "loop": "hold_on_last_frame",
+      "animation_length": 0.0417,
+      "bones": {
+        "Flashlight_Button": {
+          "position": {
+            "0.0": {
+              "vector": [
+                0,
+                -0.258,
+                0
+              ]
+            },
+            "0.0417": {
+              "vector": [
+                0,
+                -0.258,
+                0
+              ]
+            }
+          }
+        }
+      }
+    },
+    "flashlight_off": {
+      "loop": "hold_on_last_frame",
+      "animation_length": 0.25,
+      "bones": {
+        "Flashlight_Button": {
+          "position": {
+            "0.0": {
+              "vector": [
+                0,
+                -0.258,
+                0
+              ]
+            },
+            "0.125": {
+              "vector": [
+                0,
+                -0.384,
+                0
+              ],
+              "easing": "easeOutCubic"
+            },
+            "0.25": {
+              "vector": [
+                0,
+                0,
+                0
+              ],
+              "easing": "easeOutCubic"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "N",
+    "W",
+    "N"
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:iron_nugget"
+    },
+    "W": {
+      "item": "minecraft:lime_wool"
+    }
+  },
+  "result": {
+    "item": "flashlightx:battery",
+    "count": 2
+  }
+}

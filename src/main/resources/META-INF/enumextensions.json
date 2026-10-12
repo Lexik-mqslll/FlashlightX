@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "enum": "net/minecraft/client/model/HumanoidModel$ArmPose",
+      "name": "FLASHLIGHTX_HOLDING",
+      "constructor": "(ZLnet/neoforged/neoforge/client/IArmPoseTransformer;)V",
+      "parameters": {
+        "class": "dev/lexik/client/FlashlightArmPose",
+        "field": "HOLDING"
+      }
+    }
+  ]
+}
