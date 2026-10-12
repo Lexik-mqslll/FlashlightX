@@ -93,19 +93,8 @@ Jars end up in `build/libs/`.
 ## Repository layout
 
 ```
-src/                 1.21.1 NeoForge sources and assets
-1.20.1/              1.20.1 Forge port, built separately
-assets-src/          Blockbench project files for the models
-tools/               bbmodel_to_geo.py - converts a Blockbench project into
-                     the GeckoLib geometry, texture and animations
-```
-
-The flashlight model is authored in Blockbench in the `java_block` format and
-converted with the script in `tools/`, which also carries the display transforms
-over into the item model:
-
-```bash
-python tools/bbmodel_to_geo.py assets-src/flashlight.bbmodel
+src/        1.21.1 NeoForge sources and assets
+1.20.1/     1.20.1 Forge port, built separately
 ```
 
 ## Licence

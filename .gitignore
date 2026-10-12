@@ -27,3 +27,8 @@ Thumbs.db
 
 # Leftover from an early model iteration, unused
 /flashlight.json
+
+# Local working files, not part of the mod
+tools/
+assets-src/
+branding/
